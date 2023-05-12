@@ -11,8 +11,14 @@ i {
     font-size: 2rem;
 }
 
-div i {
+.icon-link {
     --bs-icon-link-transform: translate3d(0, -.125rem, 0);
     margin: 0.5rem 1rem;
     font-size: 2rem;
+}
+
+@media (max-width: 374px) {
+    .chevron {
+        font-size: 1.25rem;
+    }
 }
