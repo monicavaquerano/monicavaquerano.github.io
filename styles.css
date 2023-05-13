@@ -7,14 +7,15 @@
     min-height: 100vh;
 }
 
-i {
-    font-size: 2rem;
-}
 
 .icon-link {
     --bs-icon-link-transform: translate3d(0, -.125rem, 0);
     margin: 0.5rem 1rem;
     font-size: 2rem;
+}
+
+.dark-mode:hover {
+    transform: translate3d(0, -.125rem, 0);
 }
 
 @media (max-width: 374px) {
